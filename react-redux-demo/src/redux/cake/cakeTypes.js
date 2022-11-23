@@ -1,1 +1,2 @@
+//CONSTANT OF TYPES OF ACTIONS
 export const BUY_CAKE = 'BUY_CAKE'
