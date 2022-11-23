@@ -17,6 +17,8 @@ const cakeReducer = (state = initialState, action) => {
   switch (action.type) {
     case BUY_CAKE: return {
       ...state,
+      // INSTEAD OF REDUCING BY 1 WE REDUCE IT BY ACTION.PAYLOAD FROM THE
+      //  ACTION'S PAYLOAD PROPERTY IN ACTION CREATOR FUNCTION
       numOfCakes: state.numOfCakes - action.payload
     }
 
